@@ -20,7 +20,7 @@ export default function Register() {
   test.current.style.display = "block" ;
   setTimeout(()=>{
     test.current.style.display = "none" ;
-  },8000)
+  },7000)
  }
   }
   
