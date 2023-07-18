@@ -37,9 +37,6 @@ const hadlePOP = (e) => {
 e.preventDefault();
 if (one !== "" && two !== "" && three!== "" && four !== "" && five !== "" && six !== "" && seven !== "") {
 setPop(true);
-setTimeout(()=>{
-  setPop(false)
-  },7000)
 }
 }
 

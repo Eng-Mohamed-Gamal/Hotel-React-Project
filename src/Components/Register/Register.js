@@ -15,14 +15,12 @@ export default function Register() {
   if(Saver1 !== "" && Saver2 !== "" && Saver3 !== "" && Saver4 !== ""  ){
  if(Saver2 === Saver4 ){
   setPOP(true);
-  setTimeout(()=>{
-  setPOP(false)
-  },3000)
+
  }else{
   test.current.style.display = "block" ;
   setTimeout(()=>{
     test.current.style.display = "none" ;
-  },3000)
+  },8000)
  }
   }
   
